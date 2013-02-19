@@ -30,27 +30,6 @@ body, html {
 	min-height: 100%;
 }
 
-#content {
-	position: absolute;
-	width: 100%;
-	top: 50px;
-	left: 0px;
-}
-
-header, #header_wrapper {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 50px;
-}
-
-#header_wrapper {
-	background: black;
-	opacity: 0.8;
-	-moz-opacity: 0.8;
-}
-
 .button:active {
 	font-size: 15px;
 }
