@@ -1,0 +1,56 @@
+.field, header p {
+	width: 25%;
+	margin: 15px;
+	float: left;
+	display: inline-block;
+}
+
+header p {
+	width: 10%;
+}
+
+#circle {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	font-size: 20px;
+	top: 200px;
+	left: 10%;
+	color: white;
+	line-height: 100px;
+	text-align: center;
+	background: #000;
+	opacity: 0.8;
+}
+
+.other {
+	position: absolute;
+	left: 10%;
+	background: black;
+	color: white;
+	opacity: 0.8;
+}
+#other_1 {
+	top: 300px;
+	font-size: 100px;
+}
+
+#other_2 {
+	top: 417px;
+	font-size: 90px;
+}
+
+#error {
+	position: absolute;
+	top: 50px;
+	color: white;
+	text-align: center;
+	font-size: small;
+	background: red;
+	opacity: 0.8;
+	width: 100%;
+	z-index: 1000;
+}
+
+/*-------------------- more box ---------------*/
