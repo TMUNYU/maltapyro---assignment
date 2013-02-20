@@ -1,3 +1,11 @@
+body, html {
+	background: url("../assets/backgrounds/images_1.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+
 header, #header_wrapper {
 	position: absolute;
 	left: 0px;
