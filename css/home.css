@@ -84,10 +84,11 @@ header, #header_wrapper {
 	right: 0px;
 }
 
-input {
+#search_box {
 	width: 48%;
-	margin-left:2%;
-	height: 50px;
+	margin-left: 2%;
+	margin-top: 3px;
+	height: 40px;
 	float: left;
 	transition: width 2s;
 	-moz-transition: width 2s; /* Firefox 4 */
@@ -95,13 +96,14 @@ input {
 	-o-transition: width 2s; /* Opera */
 }
 
-input:focus {
+#search_box:focus {
 	width: 68%;
 }
 #search_button {
 	width: 29%;
-	height: 36px;
-	padding-top: 14px;
+	height: 30px;
+	padding-top: 11px;
+	margin-top: 3px;
 	float: left;
 	-moz-border-radius-bottomleft: 0px;
 	-webkit-border-bottom-left-radius: 0px;
@@ -125,7 +127,123 @@ input:focus {
 }
 
 #alerts:hover {
-	height: 200px;	
-	background:#000000;
-	opacity:0.9;
+	height: 200px;
+	background: #000000;
+	opacity: 0.9;
+}
+
+#map_error {
+	width: 100%;
+	color: #000000;
+	background: red;
+	position: absolute;
+	bottom: 0px;
+}
+
+#lightbox_back {
+	z-index: 10003;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.8;
+}
+
+#lightbox_main {
+	z-index: 10003;
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	width: 90%;
+	height: 90%;
+	min-height:220px;
+	background: gray;
+}
+
+#lightbbox_left {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 50%;
+	height: 70%;
+	float: left;
+}
+
+#lightbbox_right {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 50%;
+	height: 70%;
+	float: left;
+}
+
+#lightbbox_bottom1 {
+	position: absolute;
+	left: 0px;
+	bottom: 15%;
+	width: 100%;
+	height: 15%;
+	clear: both;
+}
+
+#lightbbox_bottom2 {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 15%;
+	clear: both;
+}
+
+.checkbox_inputs {
+	width: 50%;
+	text-align: center;
+	float: left;
+}
+
+.text_inputs {
+	width: 98%;
+	height: 31.6%;
+	margin: 1%;
+	margin-bottom: 0px;
+	font-size: xx-large;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+#siteDesc {
+	margin: 1%;
+	height: 98%;
+	width: 98%;
+	resize: none;
+}
+
+.sve_button {
+	position: absolute;
+	width: 100px;
+	height: 100%;
+	color: gray;
+	background: orange;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	font-size: x-large;
+}
+
+.sve_button:active {
+	font-size: medium;
+}
+
+#save {
+	left: 10%;
+}
+
+#cancle {
+	right: 10%;
 }

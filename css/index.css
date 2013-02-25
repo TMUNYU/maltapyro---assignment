@@ -1,4 +1,6 @@
 body, html {
+	min-width:100%;
+	min-height:100%;
 	background: url("../assets/backgrounds/images_1.jpg") no-repeat center center fixed;
 	background-size: cover;
 	-o-background-size: cover;
